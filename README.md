@@ -9,6 +9,7 @@ Whoever wishes to participate in CodeStash must follow these guidelines,
 * Mention the issue number along with the Pull Request.
 * Comment the link of the online judge along with your PR.
 * Do not copy others code, we will be reviewing your code :wink: 
+* Submission are encouraged only till 24 Hours and after that the issue will be automatically closed.
 
 ## How to contribute
 * Clone the Repository
