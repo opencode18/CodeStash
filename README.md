@@ -4,7 +4,7 @@
 CodeStash is a project under Opencode'18. On each day  after 12AM we will be adding the problem as an issue and the participants will have to solve the problem (any language) and in the PullRequest mention the link of the online judge so that we can verify your submissions.First person to solve the problem will be awarded 20 points and the rest submissions will be awarded 10 points.  
 
 ### NOTE
-it is totally upon the mentors to close the issue, you can make the pull request until the issue is closed.
+it is totally upon the mentors to close the issue, you can't make the pull request until the issue is closed.
 
 
 ## Guidelines
