@@ -17,11 +17,12 @@ double a[N],ans[N];
 
 int main()
 {
-    ll i=0,x,j=0;
-    while(cin>>x)
+    ll i=0,x,j=0,n;
+    cin>>n;
+    for(i=0; i<n; i++)
     {
-        v.push_back({x, i});
-        i++;
+        cin>>x;
+        v.push_back({x,i});
     }
 
     sort(v.begin(), v.end());
