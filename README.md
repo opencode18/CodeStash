@@ -7,7 +7,7 @@ CodeStash is a project under Opencode'18. On each day  after 12AM we will be add
 it is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed.
 Once your PR has some mistake and is closed you cant make any further PR's.
 All PR's will be reviewed and merged at the end of the day.
-Only first 15 PR's will be considered
+Only first 10 PR's will be considered
 
 
 ## Guidelines
