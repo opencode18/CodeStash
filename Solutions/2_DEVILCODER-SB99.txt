@@ -1,29 +1,13 @@
-#include<bits/stdc++.h>
-
-using namespace std;
-
-
-int main() {
-  int a[100000],i=0;
-    vector<double> myVector;
-     while(scanf("%d",&a[i])!=EOF)
-     myVector.push_back(a[i]);
-    vector<double> Sorted = myVector;
-
-    std::sort(Sorted.begin(), Sorted.end());
-
-    map<double, int> myMap;
-
-    for (int i = 0; i < Sorted.size() ; i++)
-    {
-        myMap.insert(make_pair(Sorted[i],i));
-    }
-
-    for (int i = 0; i < myVector.size() ; i++)
-    {
-        auto it = myMap.find(myVector[i]);
-        cout << it->second + 1<<" ";
-    }
-
-    return 0;
-}
+def rank(A):
+    R = [0 for x in range(len(A))]
+    for i in range(len(A)):
+        (r, s) = (1, 1)
+        for j in range(len(A)):
+            if j != i and A[j] < A[i]:
+                r += 1
+            if j != i and A[j] == A[i]:
+                s += 1      
+        R[i] = r + (s - 1) / 2
+    return R
+u =list(map(int,input().split()))
+print(rank(u))
