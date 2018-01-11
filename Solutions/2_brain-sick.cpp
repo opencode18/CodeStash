@@ -3,6 +3,8 @@ using namespace std;
 
 int main()
 {
+    int n;
+    cin>>n;
     string num;
     getline(cin,num);
     stringstream ss(num);
