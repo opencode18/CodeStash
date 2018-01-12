@@ -24,15 +24,15 @@ int main()
 		
 		for(long long int i=1;i<n;i++)
 		{
-        int b=arr1[i];
-        for(int j=0;j<i;j++)
-        {
-            if((b%arr1[j]==0) or (arr1[j]%b==0))
-            {
-                arr2[i]=max(arr2[i],arr2[j]+1);
-                count=max(count,arr2[i]);
-            }
-        }
+		int b=arr1[i];
+		for(int j=0;j<i;j++)
+		{
+		    if((b%arr1[j]==0) or (arr1[j]%b==0))
+		    {
+			arr2[i]=max(arr2[i],arr2[j]+1);
+			count=max(count,arr2[i]);
+		    }
+		}
 		}
     
 		if(count==1)
