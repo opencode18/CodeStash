@@ -1,3 +1,6 @@
 for i in range(int(input())):
     n=int(input())
-    print(int(n/2))
+    if n==1:
+        print(1)
+    else:
+        print(int(n/2))
