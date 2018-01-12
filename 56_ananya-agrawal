@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+    long long int t,a,c;
+    scanf("%lld",&t);
+    while(t--)
+    {
+        scanf("%lld",&a);
+        c=a/2;
+        printf("%lld\n",c);
+    }
+    return 0;
+}
