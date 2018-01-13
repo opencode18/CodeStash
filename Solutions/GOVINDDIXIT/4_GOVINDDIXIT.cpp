@@ -30,8 +30,16 @@ int main()
 		    if((b%arr1[j]==0) or (arr1[j]%b==0))
 		    {
 			arr2[i]=max(arr2[i],arr2[j]+1);
-			count=max(count,arr2[i]);
+			if(count>arr2[i])
+			{
+			    count=count;
+			}
+			else
+			{
+			    count=arr2[i];
+			}
 		    }
+			
 		}
 		}
     
