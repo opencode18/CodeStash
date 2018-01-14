@@ -5,6 +5,9 @@ CodeStash is a project under Opencode'18. On each day  after 12AM we will be add
 
 ### NOTE
 it is totally upon the mentors to close the issue, you can't make any pull request after the issue is closed.
+Once your PR has some mistake and is closed you cant make any further PR's.
+All PR's will be reviewed and merged at the end of the day.
+Only first 10 PR's will be considered
 
 
 ## Guidelines
@@ -17,8 +20,14 @@ Whoever wishes to participate in CodeStash must follow these guidelines,
 * Submission are encouraged only till 24 Hours and after that the issue will be automatically closed.
 
 ## How to contribute
-* Clone the Repository
+* Create your own fork of the repository. [How to fork a repository?](https://help.github.com/articles/fork-a-repo/)
+* Clone your fork. [How to clone a repository?](https://help.github.com/articles/cloning-a-repository/)
+* Configure a remote. [How to configure a remote?](https://help.github.com/articles/adding-a-remote/)
 * Create your code with the format given above.
+* On your local machine, go to the CodeStash folder.
+* Go to Solutions folder and a make a new folder (if it's not already there) and name it as your GitHub username.
+* Paste the code file in your folder.
+* Add, commit and push the changes.
 * Create the PR mentioning the issue number.
 
 
