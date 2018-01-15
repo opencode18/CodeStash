@@ -8,7 +8,7 @@ int main()
 	while(t--)
 	{
 		int n,l,r;
-		int a[7] ={0};
+		int a[8] ={0};
 		scanf("%d %d %d",&n,&l,&r);
 		int k,c=0,p=0;
 		while(n!=0)
