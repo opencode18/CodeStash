@@ -30,7 +30,7 @@ int main()
     	        }
     	    }
     	}
-    	printf("%d",arr[x/2]);
+    	printf("%d\n",arr[x/2]);
     	
     	
     }
