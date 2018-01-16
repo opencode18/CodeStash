@@ -13,12 +13,14 @@ int main()
     	{
     		for(j=0; j<b; j++) 
     		{
-    		    scanf("%d",&arr[x++]);
+    		    scanf("%d",&arr[x]);
+    		    x++;
     		}
-    	}    
-    	for(int k=0;k<x;k++)
+    	}  
+
+    	for(int k=0;k<x-1;k++)
     	{
-    	    for(int l=0;l<x;l++)
+    	    for(int l=0;l<x-1;l++)
     	    {
     	        if(arr[l]>arr[l+1])
     	        {
@@ -29,6 +31,8 @@ int main()
     	    }
     	}
     	printf("%d",arr[x/2]);
+    	
+    	
     }
 	return 0;
 }
