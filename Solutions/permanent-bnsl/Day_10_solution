@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    int n1,n2;
+    float s1 = 0,s2 = 0;
+    cin>>n1>>n2;
+    int a[n1],b[n2];
+    for(int i = 0; i < n1; ++i) {
+        cin>>a[i];
+        s1 += a[i];
+    }
+    for(int i = 0; i < n2; ++i) {
+        scanf("%d,",&b[i]);
+        s2 += b[i];
+    }
+    s1 /= 5;
+    s2 /= 10;
+    int n;
+    cin>>n;
+    if(s1+s2 <= n)
+        cout<<"Yes";
+    else
+        cout<<"No";
+    return 0;
+}
