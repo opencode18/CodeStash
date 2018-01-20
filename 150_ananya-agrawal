@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int n,s,suma=0,sumb=0,i,a[100000],b[100000],k;
+    scanf("'%d%d",&n,&s);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+        suma=suma+a[i];
+    }
+    for(i=0;i<s;i++)
+    {
+        scanf("%d",&b[i]);
+        sumb=sumb+b[i];
+    }
+    scanf("%d",&k);
+    if(suma%5)
+    {
+        suma=suma/5;
+        suma=suma+1;
+    }
+    else
+    suma=suma/5;
+    if(sumb%10)
+    {
+        sumb=sumb/10;
+        sumb=sumb+1;
+    }
+    else
+    sumb=sumb/5;
+    if((suma+sumb)<=k)
+    printf("Yes");
+    else
+    printf("No");
+    return 0;
+}
